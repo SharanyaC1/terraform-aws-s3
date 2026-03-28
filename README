@@ -1,0 +1,83 @@
+# 🚀 Terraform AWS Nginx Deployment
+
+This project demonstrates how to provision AWS infrastructure using Terraform and deploy a web server using Nginx on an EC2 instance.
+
+---
+
+## 🧠 Project Overview
+
+In this project, I built a complete AWS infrastructure using Terraform and successfully hosted a web server accessible via a public IP.
+
+---
+
+## 🛠️ Tech Stack
+
+- Terraform  
+- AWS EC2  
+- AWS VPC  
+- Amazon Linux  
+- Nginx  
+- SSH  
+
+---
+
+## ⚙️ Infrastructure Components
+
+- Custom VPC  
+- Public Subnets  
+- Internet Gateway  
+- Route Tables  
+- Security Groups (SSH & HTTP access)  
+- EC2 Instance  
+
+---
+
+## 🚀 Deployment Steps
+
+1. Created VPC and networking components using Terraform  
+2. Configured public subnet and routing via Internet Gateway  
+3. Launched EC2 instance with security group  
+4. Connected using SSH  
+5. Installed and started Nginx  
+6. Accessed application via public IP  
+
+---
+
+## 📸 Screenshots
+
+![Terraform](images/terraform.png)
+![SSH](images/ssh.png)
+![Nginx](images/nginx.png)
+
+
+---
+
+## 🚧 Challenges Faced
+
+- SSH connection failures  
+- Key pair mismatch issues  
+- Private key permission errors (Windows)  
+- Networking and route table debugging  
+
+---
+
+## 💡 Key Learnings
+
+- Practical understanding of Infrastructure as Code (IaC)  
+- Importance of debugging in DevOps  
+- Deep understanding of AWS networking  
+- Handling real-world SSH and security issues  
+
+---
+
+## 🚀 Future Enhancements
+
+- Add Application Load Balancer (ALB)  
+- Implement Auto Scaling  
+- Convert project into Terraform modules  
+
+---
+
+## 🙌 Author
+
+**Sharanya Chandran**
