@@ -45,9 +45,9 @@ In this project, I built a complete AWS infrastructure using Terraform and succe
 
 ## 📸 Screenshots
 
-![Terraform](images/terraform.png)
-![SSH](images/ssh.png)
-![Nginx](images/nginx.png)
+![Terraform](terraform.png)
+![SSH](ssh.png)
+![Nginx](nginx.png)
 
 
 ---
